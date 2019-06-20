@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pensamiento construido | construyendo ideas</title>
+		<meta name="description" content="Use embedded hotspots to overlay content from different sources on a 360° image (e.g. YouTube, Google Maps, Twitter)." />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+		<link rel="stylesheet" href="http://www.marzipano.net/demos/common/reset.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+
+         <audio controls autoplay>
+  
+                <source src="acto-i-alma-estrella-damm-2019.mp3" type="audio/mpeg">
+  
+</audio> 
+        
+		<p id="start" style="text-align:center;">Bienvenido al lugar del análisis del pensamiento. <br/>Cultivando la mente mediante la lectura. <br/>@cmovega. Junio 2019</p>
+
+<h1 style="text-align:center;">Pensamiento construido<sub style="text-align:center;">Construyendo ideas.</sub></h1>
+<div id="titles" >
+	<div id="titlecontent" style="text-align:center;">
+
+	
+	
+	<p class="center">La idea </p>
+	<p class="center">no es algo que anda por el aire</p>
+    <p class="center">como una palabra. </p>
+	<p class="center">Una palabra </p>
+    <p class="center">puede uno atraparla, </p>
+    <p class="center">una idea no. </p>
+	<p class="center">Diría que una idea es </p>
+    <p class="center">como el final de una destilación de muchos ingredientes: 
+		<br/>el lugar,   <br/><br/> 
+		<br/>la función,  <br/> <br/>   
+		<br/>la economía,<br/> <br/>  
+		<br/>los clientes,  <br/> <br/> 
+		<br/>la construcción,  <br/> <br/> 
+		<br/>la orientación,  <br/> 
+		<br/>la normativa… <br/> <br/> 
+	</p>
+
+    <p class="center">El fin último de la Arquitectura,<br/> o al menos su impulso principal es construir espacios, <br/> tan armónicos, funcionales y estéticos, <br/> que le proporcionen felicidad al humano que deba o escoja habitarlos. <br/> En tal sentido, la Arquitectura no construirá edificios, <br/> fabricará espacios que regalen felicidad al humano.<br/> 
+Le Corbusier (1887 – 1965)</p>
+
+	<p class="center">Son toda una serie de factores. <br/> (Alberto Campo Baeza)</p>
+
+	<p class="center1"><a href="http://www.pensamientoconstruido.epizy.com/Views/layout.main.html"><br/><br/>Quienes somos</a></p>
+	
+	<p class="center1"><a href="http://pensamientoconstruido.epizy.com/Views/indexbook.php"><br/><br/>Consulta los libros disponibles</a></p>
+
+	<p class="center1"><a href="http://www.pensamientoconstruido.epizy.com"><br/> <br/>Entra para iniciar sesión o registrarte </p>
+
+	<p class="center1"><a href="indexAccess.html"><br/><br/>¿Me acompañas? <br/>LA VENTANA DEL CONOCIMIENTO</p>
+	
+</div>
+</div>
+	
+<div id="pano"></div>
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<div id="next" class="next nav">
+</div>
+
+<div id="prev" class="prev nav">
+</div>
+
+<form id="commentForm" style="display: none">
+  <h2>Enter your comment</h2>
+  <textarea id="commentTextarea"></textarea>
+  <button type="submit">Ok</button>
+</form>
+
+		<!-- Different sources -->
+		<div id="iframespot" ><img id="myImage" onclick="changeImage()" src="GIFMaker.org_IHn3En.gif" border="0" style="height:100%; width:100%" alt="GIFMaker.org_IHn3En" /></a>
+			<div data-source="previo" class="message">Selecciona una opción para comenzar</div>
+			
+			
+		
+		
+		<script>
+			function changeImage() {
+  				var image = document.getElementById('myImage');
+  				if (image.src.match("GIFMaker.org_IHn3EnOTHER")) {
+    				image.src = "GIFMaker.org_IHn3EnOTHER.gif";	
+  				} else {
+    				image.src = "GIFMaker.org_IHn3EnOTHER.gif";
+  				}
+			}
+		</script>
+		<script src="http://www.marzipano.net/demos/common/es5-shim.js"></script>
+		<script src="http://www.marzipano.net/demos/common/eventShim.js"></script>
+		<script src="http://www.marzipano.net/demos/common/requestAnimationFrame.js" ></script>
+		<script src="http://www.marzipano.net/demos/common/classList.js"></script>
+		<script src="http://www.marzipano.net/demos/common/fastclick.js" ></script>
+		<script src="http://www.marzipano.net/demos/common/easing.js" ></script>
+		<script src="../marzipano.js" ></script>
+		<script src="index.js"></script>
+
+	</body>
+</html>
